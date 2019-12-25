@@ -132,7 +132,7 @@ window.onload = function(){
 				bigbox.style.display = "block";
 				
 				var oImg = document.createElement("img");
-				oImg.src = "大图"+(num)+".jpg";
+				oImg.src = "images/"+"大图"+(num)+".jpg";
 				bigbox.innerHTML = "";
 				bigbox.appendChild(oImg);
 			}
